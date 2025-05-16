@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renegade7 University Selector</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f5f7fa; /* Light gray background */
+            font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px; /* Constrain width for readability */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px; /* Space between elements */
+        }
+
+        /* Header logo */
+        .header-logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Header titles */
+        .header-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #003087; /* Dark blue */
+            text-align: center;
+        }
+
+        .header-subtitle {
+            font-size: 14px;
+            font-weight: 500;
+            color: #003087;
+            text-align: center;
+        }
+
+        /* University buttons */
+        .uni-button {
+            width: 100%;
+            max-width: 500px; /* Button width */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            background-color: #ffffff; /* White background */
+            border-radius: 20px; /* Rounded edges */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effects */
+        }
+
+        .uni-button:hover {
+            transform: translateY(-2px); /* Slight lift on hover */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+        }
+
+        .uni-logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: contain;
+        }
+
+        .uni-name {
+            flex-grow: 1;
+            margin-left: 15px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #003087; /* Dark blue */
+        }
+
+        .uni-dots {
+            font-size: 24px;
+            color: #003087;
+        }
+
+        /* Responsive design */
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+
+            .header-logo {
+                width: 80px;
+                height: 80px;
+            }
+
+            .header-title {
+                font-size: 20px;
+            }
+
+            .header-subtitle {
+                font-size: 12px;
+            }
+
+            .uni-button {
+                padding: 12px;
+            }
+
+            .uni-logo {
+                width: 35px;
+                height: 35px;
+            }
+
+            .uni-name {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header logo (replace src with your logo URL) -->
+        <img src="https://i.imgur.com/hvZkbIc.jpeg" alt="Eduzentra Logo" class="header-logo">
+        
+        <!-- Header titles -->
+        <h1 class="header-title">Select a University to apply</h1>
+        <p class="header-subtitle">MADE BY EDUZENTRA</p>
+        
+        <!-- University buttons (customize href and logo src) -->
+        <a href="https://publicaccess.uct.ac.za/psc/public/EMPLOYEE/SA/c/UCT_PUBLIC_MENU.UCT_ONL_HOME_FL.GBL?PAGE=UCT_ONL_ACC_FL" class="uni-button">
+            <img src="https://i.imgur.com/0XiYZ5B.png" alt="UCT Logo" class="uni-logo">
+            <span class="uni-name">University of Cape Town</span>
+            <span class="uni-dots">⋮</span>
+        </a>
+        <a href="https://student.sun.ac.za/signup/" class="uni-button">
+            <img src="https://i.imgur.com/v4DbjBX.jpeg" alt="Stellenbosch Logo" class="uni-logo">
+            <span class="uni-name">Stellenbosch University</span>
+            <span class="uni-dots">⋮</span>
+        </a>
+        <a href="https://upnet.up.ac.za/psc/upapply/EMPLOYEE/SA/c/UP_OAP_MENU.UP_OAP_LOGIN_FL.GBL?&" class="uni-button">
+            <img src="https://i.imgur.com/kGU6NHm.png" alt="Pretoria Logo" class="uni-logo">
+            <span class="uni-name">University of Pretoria</span>
+            <span class="uni-dots">⋮</span>
+        </a>
+        <a href="https://www.uj.ac.za/admissions-aid/" class="uni-button">
+            <img src="https://i.imgur.com/ntSq5Ol.png" alt="Johannesburg Logo" class="uni-logo">
+            <span class="uni-name">University of Johannesburg</span>
+            <span class="uni-dots">⋮</span>
+        </a>
+        <a href="https://apply.ufs.ac.za/Application/Undergraduate" class="uni-button">
+            <img src="https://i.imgur.com/2KPNQ9b.png" alt="Free State Logo" class="uni-logo">
+            <span class="uni-name">University of the Free State</span>
+            <span class="uni-dots">⋮</span>
+        </a>
+        <a href="https://www.uwc.ac.za/admission-and-financial-aid/apply" class="uni-button">
+            <img src="https://i.imgur.com/k7ogvY8.png" alt="Western Cape Logo" class="uni-logo">
+            <span class="uni-name">University of the Western Cape</span>
+            <span class="uni-dots">⋮</span>
+        </a>
+    </div>
+</body>
+</html>
