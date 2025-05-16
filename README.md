@@ -1,2 +1,0 @@
-# Eduzentra
-My Eduzentra apps
