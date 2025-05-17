@@ -1,0 +1,25 @@
+{
+  "company": {
+    "name": "Your Company",
+    "mission": "Empowering businesses with innovative tech",
+    "founded": "2020",
+    "headquarters": "Remote"
+  },
+  "products": [
+    {
+      "name": "App X",
+      "description": "A mobile app for productivity",
+      "features": ["Task management", "Reminders"]
+    }
+  ],
+  "services": [
+    {
+      "name": "Consulting",
+      "description": "Tech strategy for startups"
+    }
+  ],
+  "contact": {
+    "email": "info@yourcompany.com",
+    "website": "https://yourcompany.com"
+  }
+}
